@@ -12,6 +12,7 @@ h1{
 
 p {
 	font-family: Helvetica;
+	color: white;
 }
 
 ul{
@@ -20,7 +21,7 @@ ul{
 
 li{
 	font-weight: 800;
-	color: #26507F;
+	color: white;
 	text-align: center;
 }
 
