@@ -33,6 +33,13 @@ li{
 #section_1 {
 	background-image: url(../images/formlabs_1.jpg);
 	background-size: cover;
-	height: 600;
+	  /* Set up proportionate scaling */
+  	width: 100%;
+  	height: auto;
+	
+  	/* Set up positioning */
+  	position: fixed;
+  	top: 0;
+  	left: 0;
 
 }
