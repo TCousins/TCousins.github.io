@@ -43,3 +43,7 @@ li{
   	left: 0;
 
 }
+
+#section_2 {
+	display: inline-block;
+}
