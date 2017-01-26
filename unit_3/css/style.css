@@ -36,11 +36,6 @@ li{
 	  /* Set up proportionate scaling */
   	width: 100%;
   	height: 600px;
-	
-  	/* Set up positioning */
-  	position: fixed;
-  	top: 0;
-  	left: 0;
 
 }
 
