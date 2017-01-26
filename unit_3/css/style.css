@@ -33,5 +33,6 @@ li{
 #section_1 {
 	background-image: url(../images/formlabs_1.jpg);
 	background-size: cover;
+	height: 600;
 
 }
