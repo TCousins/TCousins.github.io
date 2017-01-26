@@ -1,8 +1,6 @@
 body {
 
 	background-color: #298EFF;
-	background-image: url(../images/formlabs_1.jpg);
-	background-size: cover;
 	text-align: center;
 	font-family: Arial; 
 }
@@ -30,4 +28,8 @@ li{
 #slogan {
 	font-style: italic;
 
+}
+
+#section_1 {
+	background-image: url(../images/formlabs_1.jpg);
 }
