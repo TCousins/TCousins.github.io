@@ -1,0 +1,32 @@
+body {
+
+	background-color: #298EFF;
+	text-align: center;
+	font-family: Arial; 
+}
+
+h1{
+	font-size: 18;
+	font-weight: 600;
+}
+
+p {
+	font-family: "Arial Narrow";
+}
+
+ul{
+	font-color: #26507F;
+}
+
+li{
+	font-weight: 800;
+}
+
+img {
+
+}
+
+#slogan {
+	font-style: italic;
+
+}
