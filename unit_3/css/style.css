@@ -16,10 +16,12 @@ p {
 
 ul{
 	color: #26507F;
+	text-align: center;
 }
 
 li{
 	font-weight: 800;
+	text-align: center;
 }
 
 img {
