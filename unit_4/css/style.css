@@ -8,6 +8,7 @@ body {
 }
 div {
 	width: 100%;
+	float: left;
 }
 
 h1{
@@ -32,7 +33,7 @@ p {
 ul{
 	font-family: 'Roboto', sans-serif;
 	display: inline;
-	list-style-type: none;
+	list-style-type: inline;
     margin: 0;
     padding: 0;
 
@@ -40,15 +41,22 @@ ul{
 }
 
 li {
-	list-style-type: none;
+	list-style-type: inline;
     margin: 0;
     padding: 0;
 
 }
 
+#biz_services {
+	list-style-position: inside;
+	list-style-type: inline;
+	list-style: inline;
+}
 
 #header {
-
+	color: white;
+	height: 150px;
+	width: 100%;
 }
 
 #section_1 {
@@ -57,6 +65,7 @@ li {
 	  /* Set up proportionate scaling */
   	width: 100%;
   	height: 600px;
+ {
 
 
 }
