@@ -1,30 +1,36 @@
+
+
 body {
 
 	background-color: #298EFF;
 	text-align: center;
-	font-family: Arial; 
+	font-family: 'Roboto', sans-serif;
 }
 
 h1{
+	font-family: 'Roboto', sans-serif;
 	font-size: 18;
 	font-weight: 600;
 }
 
 h2 {
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
 
 }
 
 p {
-	font-family: Helvetica;
+	font-family: 'Roboto', sans-serif;
 	color: white;
 }
 
 ul{
+	font-family: 'Roboto', sans-serif;
 	list-style-position: inside;
 }
 
 li{
+	font-family: 'Roboto', sans-serif;
 	font-weight: 800;
 	color: white;
 	text-align: center;
@@ -32,6 +38,7 @@ li{
 
 
 #slogan {
+	font-family: 'Roboto', sans-serif;
 	font-style: italic;
 	color: black;
 
