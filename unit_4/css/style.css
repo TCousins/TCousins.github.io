@@ -32,34 +32,42 @@ p {
 
 ul{
 	font-family: 'Roboto', sans-serif;
-	display: inline;
-	list-style-type: inline;
+	list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 16px;
+    overflow: hidden;
 
   	
 }
 
 li {
-	list-style-type: inline;
+    list-style-type: none;
+    list-style-type: inline;
     margin: 0;
-    padding: 0;
+    padding: 16px;
+    overflow: hidden;
 
 }
 
-#biz_services {
+li a {
+	display: block;
+}
+
+.biz_services {
 	list-style-position: inside;
 	list-style-type: inline;
 	list-style: inline;
 }
 
-#header {
+.header {
 	color: white;
-	height: 150px;
 	width: 100%;
+	display: inline-block;
+	float: left;
+	overflow: hidden;
 }
 
-#section_1 {
+.section_1 {
 	background-image: url(../images/3d_shoes.jpg);
 	background-size: cover;
 	  /* Set up proportionate scaling */
@@ -70,7 +78,7 @@ li {
 
 }
 
-#slogan {
+.slogan {
 	font-family: 'Roboto', sans-serif;
 	font-style: italic;
 	color: black;
