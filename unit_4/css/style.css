@@ -1,4 +1,8 @@
-
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
 
 body {
 
@@ -53,32 +57,41 @@ li a {
 	display: block;
 }
 
-.biz_services {
+#biz_services {
 	list-style-position: inside;
 	list-style-type: inline;
 	list-style: inline;
 }
 
-.header {
-	color: white;
+#header {
+	color: black;
+	background-color: white;
 	width: 100%;
 	display: inline-block;
 	float: left;
 	overflow: hidden;
 }
 
-.section_1 {
-	background-image: url(../images/3d_shoes.jpg);
+#header li {
+	display: inline-block;
+}
+
+#section_1 {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/3d_shoes.jpg);
 	background-size: cover;
 	  /* Set up proportionate scaling */
   	width: 100%;
   	height: 600px;
- {
-
-
+  	position: relative;
 }
 
-.slogan {
+.vertical {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#slogan {
 	font-family: 'Roboto', sans-serif;
 	font-style: italic;
 	color: black;
