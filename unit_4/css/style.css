@@ -107,11 +107,25 @@ li a {
 	
 }
 
+#footer {
+	background-color: #298EFF;
+	width: 100%;
+	padding: 15px;
+	color: white;
+}
+
 #mailing_list {
 	float: left;
-	background-color: #006AE5;
+	background-color: #003B7F;
 	width: 100%;
 	position: relative;
+	color: white;
+	padding: 40px;
+}
+
+#mailing_list h2 {
+	font-size: 16px;
+
 }
 
 #section_1 {
@@ -149,6 +163,7 @@ li a {
 
 .serv_widget {
 	align-content: center;
+	display: flex;
 }
 
 .serv_widget a {
@@ -160,10 +175,13 @@ li a {
 
 .serv_widget h3 {
 	text-decoration: none;
-	display: inline-block;
+	text-align: center;
 }
 
 #s2_wrapper {
+	display: flex;
+	text-align: center;
+	align-content: center;
 
 }
 
