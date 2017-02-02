@@ -30,9 +30,14 @@ h2 {
 
 }
 
+img {
+	display: 100%;
+}
+
 p {
 	font-family: 'Roboto', sans-serif;
 	color: white;
+	display: block;
 }
 
 ul{
@@ -155,14 +160,14 @@ li a {
 }
 
 #s2_wrapper {
-	display: inline-flex;
 	text-align: center;
 	align-content: center;
+	display: inline-flex;
+	padding: 25px;
 }
 
 .serv_widget {
 	align-content: center;
-	display: flex;
 }
 
 .serv_widget a {
@@ -171,12 +176,17 @@ li a {
 	color: black;
 	font-style: bold 800;
 	text-decoration: none;
+	display: block;
 }
 
 .serv_widget h3 {
 	text-decoration: none;
 	text-align: center;
 	align-content: center;
+}
+
+.serv_widget p {
+	padding: 20px;
 }
 
 #slogan {
