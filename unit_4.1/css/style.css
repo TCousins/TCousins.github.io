@@ -30,35 +30,8 @@ h2 {
 
 }
 
-header {
-	color: black;
-	background-color: white;
-	width: 100%;
-	display: inline-block;
-	float: left;
-	overflow: hidden;
-}
-
-header li {
-	display: inline-block;
-	text-decoration: none;	
-}
-
-header li a {
-	display: inline-block;
-	color: black;
-	text-decoration: none;
-}
-
 img {
 	display: 100%;
-}
-
-footer {
-	background-color: #298EFF;
-	width: 100%;
-	padding: 15px;
-	color: white;
 }
 
 p {
@@ -112,6 +85,33 @@ li a {
 	overflow: hidden;
 	float: left;
 	display: inline-block;
+}
+
+#header {
+	color: black;
+	background-color: white;
+	width: 100%;
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+}
+
+#header li {
+	display: inline-block;
+	text-decoration: none;	
+}
+
+#header li a {
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+}
+
+#footer {
+	background-color: #298EFF;
+	width: 100%;
+	padding: 15px;
+	color: white;
 }
 
 #mailing_list {
@@ -193,8 +193,3 @@ li a {
 	font-family: 'Roboto', sans-serif;
 	font-style: italic;
 	color: black;
-}
-
-#wrapper {
-
-}
