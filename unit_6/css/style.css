@@ -115,6 +115,30 @@ li a {
 	display: inline-block;
 }
 
+.biz_widget {
+	align-content: center;
+}
+
+.biz_widget a {
+	text-align: center;
+	align-content: center;
+	color: black;
+	font-style: bold 800;
+	text-decoration: none;
+	display: block;
+}
+
+.biz_widget h3 {
+	text-decoration: none;
+	text-align: center;
+	align-content: center;
+}
+
+.biz_widget p {
+	padding: 20px;
+}
+
+
 #mailing_list {
 	float: left;
 	background-color: #003B7F;
@@ -146,12 +170,6 @@ li a {
   	position: relative;
 }
 
-.vertical {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-}
-
 #section_2 {
 	  /* Set up proportionate scaling */
 	background-color: white;
@@ -168,40 +186,23 @@ li a {
   	margin-top: 2em;
 }
 
-#s2_wrapper {
+#section_2_wrapper {
 	text-align: center;
 	align-content: center;
 	display: inline-flex;
 	padding: 25px;
 }
 
-.serv_widget {
-	align-content: center;
-}
-
-.serv_widget a {
-	text-align: center;
-	align-content: center;
-	color: black;
-	font-style: bold 800;
-	text-decoration: none;
-	display: block;
-}
-
-.serv_widget h3 {
-	text-decoration: none;
-	text-align: center;
-	align-content: center;
-}
-
-.serv_widget p {
-	padding: 20px;
-}
-
 #slogan {
 	font-family: 'Roboto', sans-serif;
 	font-style: italic;
 	color: black;
+}
+
+.vertical {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 #wrapper {
