@@ -16,6 +16,13 @@ div {
 	float: left;
 }
 
+footer {
+	background-color: #298EFF;
+	width: 100%;
+	padding: 15px;
+	color: white;
+}
+
 h1{
 	font-family: 'Roboto', sans-serif;
 	font-size: 32;
@@ -54,25 +61,15 @@ img {
 	display: 100%;
 }
 
-footer {
-	background-color: #298EFF;
-	width: 100%;
-	padding: 15px;
-	color: white;
+nav {
+	background-color: white;
+
 }
 
 p {
 	font-family: 'Roboto', sans-serif;
 	color: white;
 	display: block;
-}
-
-ul{
-	font-family: 'Roboto', sans-serif;
-	list-style-type: none;
-    margin: 0;
-    padding: 16px;
-    overflow: hidden;	
 }
 
 li {
@@ -125,6 +122,14 @@ li a {
 
 #mailing_list h2 {
 	font-size: 20px;
+}
+
+#nav {
+	font-family: 'Roboto', sans-serif;
+	list-style-type: none;
+    margin: 0;
+    padding: 16px;
+    overflow: hidden;	
 }
 
 #section_1 {
