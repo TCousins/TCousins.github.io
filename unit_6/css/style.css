@@ -4,13 +4,6 @@
 	box-sizing: border-box;
 }
 
-a {
-	background-color: white
-	color: black;
-	text-decoration: none;
-	display: block;
-}
-
 body {
 
 	background-color: #298EFF;
@@ -75,7 +68,6 @@ nav {
     margin: 0;
     padding: 16px;
     overflow: hidden;
-    display: block;
 }
 
 p {
@@ -134,6 +126,14 @@ li a {
 
 #mailing_list h2 {
 	font-size: 20px;
+}
+
+#nav {
+	font-family: 'Roboto', sans-serif;
+	list-style-type: none;
+    margin: 0;
+    padding: 0,16,0,16;
+    overflow: hidden;
 }
 
 #section_1 {
