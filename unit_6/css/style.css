@@ -63,7 +63,11 @@ img {
 
 nav {
 	background-color: white;
-
+	font-family: 'Roboto', sans-serif;
+	list-style-type: none;
+    margin: 0;
+    padding: 16px;
+    overflow: hidden;
 }
 
 p {
@@ -122,14 +126,6 @@ li a {
 
 #mailing_list h2 {
 	font-size: 20px;
-}
-
-#nav {
-	font-family: 'Roboto', sans-serif;
-	list-style-type: none;
-    margin: 0;
-    padding: 16px;
-    overflow: hidden;	
 }
 
 #section_1 {
