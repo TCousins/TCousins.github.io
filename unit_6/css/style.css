@@ -11,16 +11,13 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-div {
-	width: 100%;
-}
-
 footer {
 	background-color: #298EFF;
-	width: 100%;
-	padding: 15px;
 	color: white;
-	display: block;
+	display: inline-flex;
+	padding: 20px 20px 20px 20px;
+	margin: 0px 20px 0px 20px;
+
 }
 
 h1{
@@ -133,6 +130,22 @@ li a {
 	padding: 20px;
 }
 
+#footer_box_1 {
+	display: inline-flex;
+	background-color: red;
+}
+
+#footer_box_2 {
+	background-color: green;
+}
+
+#footer_box_3 {
+	background-color: violet;
+}
+
+#footer_box_4 {
+	background-color: orange;
+}
 
 #mailing_list {
 	background-color: #003B7F;
