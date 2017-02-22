@@ -130,23 +130,6 @@ li a {
 	padding: 20px;
 }
 
-#footer_box_1 {
-	display: inline-flex;
-	background-color: red;
-}
-
-#footer_box_2 {
-	background-color: green;
-}
-
-#footer_box_3 {
-	background-color: violet;
-}
-
-#footer_box_4 {
-	background-color: orange;
-}
-
 #mailing_list {
 	background-color: #003B7F;
 	width: 100%;

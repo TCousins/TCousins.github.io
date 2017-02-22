@@ -130,21 +130,24 @@ li a {
 	padding: 20px;
 }
 
+#footer_wrapper {
+	text-align: center;
+	align-content: center;
+	display: inline-flex;
+	padding: 25px;
+}
+
 #footer_box_1 {
 	display: inline-flex;
 	background-color: red;
 }
 
 #footer_box_2 {
-	background-color: green;
+	background-color: white;
 }
 
 #footer_box_3 {
-	background-color: violet;
-}
-
-#footer_box_4 {
-	background-color: orange;
+	background-color: blue;
 }
 
 #mailing_list {
