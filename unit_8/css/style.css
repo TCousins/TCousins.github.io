@@ -124,11 +124,15 @@ li a {
 	text-decoration: none;
 	text-align: center;
 	align-content: center;
-	margin-top: 20px; 
+	margin-top: 20px;
+}
+
+.biz_widget img {
+	margin-top: 20px;
 }
 
 .biz_widget p {
-	padding: 20px;
+	margin: 20px;
 }
 
 #footer_wrapper {
