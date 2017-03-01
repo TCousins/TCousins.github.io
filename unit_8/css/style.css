@@ -181,11 +181,10 @@ li a {
 
 #section_1 {
 	background-image: linear-gradient(rgba(255, 255, 255, 0.5), 
-		rgba(255, 255, 255, 0.5));
+		rgba(255, 255, 255, 0.5)), url(../images/3d_shoes2.jpeg);
 	background-size: cover;
 	  /* Set up proportionate scaling */
-  	height: 400px;
-  	position: relative;
+  	height: 500px;
 }
 
 #section_2 {
