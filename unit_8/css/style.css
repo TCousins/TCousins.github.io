@@ -18,7 +18,6 @@ footer {
 	padding: 0;
 	margin: 0;
 	width: 100%;
-	height: 300px;
 
 }
 
@@ -143,29 +142,39 @@ li a {
 	height: 100%;
 }
 
+#footer_wrapper a{
+	color: white;
+}
+
 #footer_box_1 {
 	float: left;
+	display: inline-block;
 	background-color: #0089FF;
 	width:25%;
 	height: 100%;
+	padding: 20px;
 }
 
 #footer_box_2 {
 	background-color: #0067BF;
 	float: left;
+	display: inline-block;
 	width: 50%;
 	height: 100%;
+	padding: 20px;
 }
 
 #footer_box_3 {
 	background-color: #00457F;
 	float: left;
+	display: inline-block;
 	width:25%;
 	height: 100%;
+	padding: 20px;
 }
 
 #mailing_list {
-	background-color: #00337F;
+	background-color: #1A5A9B;
 	width: 100%;
 	position: relative;
 	color: white;
