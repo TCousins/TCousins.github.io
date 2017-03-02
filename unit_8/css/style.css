@@ -14,7 +14,7 @@ body {
 footer {
 	background-color: #298EFF;
 	color: white;
-	display: inline-block;
+	display: block;
 	padding: 0;
 	margin: 0;
 	width: 100%;
@@ -145,7 +145,7 @@ li a {
 
 #footer_box_1 {
 	float: left;
-	display: inline-block;
+	display: block;
 	background-color: #0089FF;
 	width:25%;
 	height: 100%;
@@ -155,7 +155,7 @@ li a {
 #footer_box_2 {
 	background-color: #0067BF;
 	float: left;
-	display: inline-block;
+	display: block;
 	width: 50%;
 	height: 175px;
 	padding: 20px;
@@ -164,7 +164,7 @@ li a {
 #footer_box_3 {
 	background-color: #00457F;
 	float: left;
-	display: inline-block;
+	display: block;
 	width:25%;
 	height: 175px;
 	padding: 20px;
@@ -316,6 +316,11 @@ li a {
 	font-family: 'Roboto', sans-serif;
 	font-style: italic;
 	color: white;
+}
+
+.social_widget {
+	align-content: center;
+	text-align: center;
 }
 
 .vertical {
