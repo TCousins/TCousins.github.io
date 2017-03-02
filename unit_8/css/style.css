@@ -59,8 +59,7 @@ nav {
 	list-style-type: none;
     margin: 0;
     padding: 16px;
-    overflow: hidden;
-    display: inline-flex;
+    display: block;
 }
 
 p {
@@ -74,6 +73,7 @@ li {
     list-style-type: inline;
     margin: 0;
     padding: 16px;
+    padding-top: 1.8em;
     overflow: hidden;
 }
 
@@ -149,8 +149,12 @@ li a {
 	display: block;
 	background-color: #0089FF;
 	width:25%;
-	height: 100%;
-	padding: 20px;
+	height: 175px;
+	padding-top: 2em;
+}
+
+#footer_box_1 p {
+	padding: 1em;
 }
 
 #footer_box_2 {
@@ -162,13 +166,18 @@ li a {
 	padding: 20px;
 }
 
+#footer_box_2 h3 {
+	padding: 20px;
+	}
+
 #footer_box_3 {
 	background-color: #00457F;
 	float: left;
 	display: block;
 	width:25%;
 	height: 175px;
-	padding: 20px;
+	padding-top: 5em;
+	align-content: center;
 }
 
 #mailing_list {
@@ -193,12 +202,12 @@ li a {
 	cursor:pointer;
 	color:#ffffff;
 	font-size:18px;
-	padding:16px 31px;
-	margin: 0 auto;
+	padding:10px 0px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #2f6627;
-	width: 100px;
 	text-align: center;
+	width: 50%;
+    margin: 0 auto;
 }
 .myButton_a:hover {
 	background-color:#0DFFB4;
@@ -218,9 +227,11 @@ li a {
 	cursor:pointer;
 	color:#ffffff;
 	font-size:18px;
-	padding:16px 31px;
+	padding:10px 0px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #2f6627;
+	width: 50%;
+    margin: 0 auto;
 }
 .myButton_b:hover {
 	background-color:#0CE8E2;
@@ -240,9 +251,11 @@ li a {
 	cursor:pointer;
 	color:#ffffff;
 	font-size:18px;
-	padding:16px 31px;
+	padding:10px 0px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #2f6627;
+	width: 50%;
+    margin: 0 auto;
 }
 .myButton_c:hover {
 	background-color:#00C3FF;
@@ -262,9 +275,11 @@ li a {
 	cursor:pointer;
 	color:#ffffff;
 	font-size:18px;
-	padding:16px 31px;
+	padding:10px 0px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #2f6627;
+	width: 50%;
+    margin: 0 auto;
 }
 .myButton_d:hover {
 	background-color:#0C7AE8;
@@ -278,7 +293,20 @@ li a {
 	font-family: 'Roboto', sans-serif;
 	list-style-type: none;
     margin: 0;
-    overflow: hidden;
+    height: 100%;
+}
+
+#nav_logo {
+	width: 30%;
+	float: left;
+	display: block;
+	padding-bottom: .3em;
+
+}
+
+#nav_menu {
+	width: 70%;
+	float: left;
 }
 
 #section_1 {
@@ -324,6 +352,8 @@ li a {
 	text-align: center;
 	display: inline-block;
 	position: relative;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .vertical {
