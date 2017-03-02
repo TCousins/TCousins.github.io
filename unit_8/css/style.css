@@ -193,10 +193,11 @@ li a {
 	color:#ffffff;
 	font-size:18px;
 	padding:16px 31px;
-	margin-left: 4em;
+	margin: 0 auto;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #2f6627;
 	width: 100px;
+	text-align: center;
 }
 .myButton_a:hover {
 	background-color:#0DFFB4;
