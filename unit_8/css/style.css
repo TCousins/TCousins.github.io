@@ -141,6 +141,7 @@ li a {
 
 #footer_wrapper a{
 	color: white;
+	display: block;
 }
 
 #footer_box_1 {
@@ -321,6 +322,8 @@ li a {
 .social_widget {
 	align-content: center;
 	text-align: center;
+	display: inline-block;
+	position: relative;
 }
 
 .vertical {
